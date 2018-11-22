@@ -123,7 +123,7 @@ def crop(img, c, N=13):
     H = img.shape[1]
     W = img.shape[0]
 
-    h = (N - 1) / 2
+    h = int((N - 1) / 2)
 
     x1 = (c[0] - h)
     y1 = (c[1] - h)
