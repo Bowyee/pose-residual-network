@@ -1,5 +1,7 @@
 import os
 import keras
+import sys
+sys.path.append('src/')
 from pycocotools.coco import  COCO
 from opt import Options
 from src.model import PRN, PRN_Seperate
